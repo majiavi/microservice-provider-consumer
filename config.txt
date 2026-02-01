@@ -1,0 +1,17 @@
+Configuration
+Create the project directory:
+
+VM1:
+Bash
+mkdir my-service && cd my-service
+npm init -y
+npm install express
+Create the Service File: Run nano provider.js and paste the following code:
+
+VM2:
+Create the project directory:
+Bash
+mkdir my-gateway && cd my-gateway
+npm init -y
+npm install express axios
+Create the Gateway File: Run nano gateway.js and paste the following. Crucial: Replace 10.0.2.15 with the actual IP of VM 1 you found earlier.
