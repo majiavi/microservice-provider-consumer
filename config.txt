@@ -14,4 +14,4 @@ Bash
 mkdir my-gateway && cd my-gateway
 npm init -y
 npm install express axios
-Create the Gateway File: Run nano gateway.js and paste the following. Crucial: Replace 10.0.2.15 with the actual IP of VM 1 you found earlier.
+Create the Gateway File: Run nano gateway.js and paste the following.
